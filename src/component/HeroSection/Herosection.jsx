@@ -96,7 +96,7 @@ const Herosection = () => {
 
           <div
             id="right"
-            className="  w-[100%] order-2 flex justify-end items-center "
+            className="  w-[100%] order-2  flex justify-end sm:justify-center items-center "
           >
             <Img src={HeroImage} />
           </div>
