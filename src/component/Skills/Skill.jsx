@@ -121,7 +121,7 @@ const IndividualSkill = ({ title, skills }) => {
 
 const Skill = () => {
   return (
-    <Container id="skill">
+    <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
         <Desc>

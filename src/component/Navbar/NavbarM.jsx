@@ -35,12 +35,12 @@ const NavbarM = () => {
           </span>
 
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button
-              type="button"
+            <a
+              href="https://github.com/KarishmaGR/"
               className="bg-grey-900 border py-2 text-purple-800 hover:text-white font-semibold active:text-white w-40 px-6 transition-all duration-700 ease-in-out rounded-3xl border-purple-700 hover:bg-purple-800 active:bg-purple-800"
             >
               Github Profile
-            </button>
+            </a>
             <button
               onClick={toggleMenu}
               data-collapse-toggle="navbar-sticky"
@@ -96,6 +96,22 @@ const NavbarM = () => {
                   className="block py-2 px-3 text-gray-100 rounded hover:text-purple-800"
                 >
                   Education
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#projects"
+                  className="block py-2 px-3 text-gray-100 rounded hover:text-purple-800"
+                >
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#experience"
+                  className="block py-2 px-3 text-gray-100 rounded hover:text-purple-800"
+                >
+                  Experience
                 </a>
               </li>
               <li>
