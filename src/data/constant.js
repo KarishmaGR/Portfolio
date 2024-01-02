@@ -147,7 +147,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "http://www.raghubirschool.com/schoollogo.png",
+    img: "https://github.com/KarishmaGR/Images/blob/main/raghubir.png?raw=true",
     school: "Shri Raghubir Junior College, Boisar",
     date: "Apr 2018 - Mar 2019",
     grade: "78.8%",
@@ -156,7 +156,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "http://www.raghubirschool.com/schoollogo.png",
+    img: "https://github.com/KarishmaGR/Images/blob/main/raghubir.png?raw=true",
     school: "Shri Raghubir High School, Boisar",
     date: "Apr 2016 - Apr 2017",
     grade: "91.4%",
