@@ -62,7 +62,7 @@ const ResumeButton = styled.a`
 const Herosection = () => {
   return (
     <div id="about" className="flex  justify-center z-0">
-      <div className="clip-polygon  flex  overflow-hidden justify-end relative  py-8  px-28 ">
+      <div className="clip-polygon  flex  overflow-hidden justify-end relative sm:px-0   py-8  px-28 ">
         <div className=" absolute  flex justify-center bottom-0  w-[100%]   right-0  overflow-hidden   top-[5%] left-[30%]  sm:left-[10%] sm:-top-[10%] -translate-x-12 -translate-y-10">
           <HeroBgAnimation />
         </div>
