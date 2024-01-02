@@ -28,6 +28,7 @@ const Wrapper = styled.div`
       rgba(0, 70, 209, 0.15) 100%
     );
   width: 100%;
+  overflow-x: hidden;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;
 
@@ -35,10 +36,10 @@ const App = () => {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   console.log(openModal);
   return (
-    <div className=" bg-gray-950">
+    <div className=" bg-gray-950 ">
       <Router>
         <NavbarM></NavbarM>
-        <Body className=" bg-gray-900">
+        <Body className=" bg-gray-900 ">
           <Herosection />
           <Wrapper>
             <Skill />
