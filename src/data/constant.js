@@ -131,6 +131,7 @@ export const experiences = [
     date: "Nov 2023 - Dece 2023",
     desc: " working as intern i was responsible for creating and Learning web-based products using PHP, MySQL, Ajax, and JavaScript under the mentor guidence",
     skills: ["PHP", "Bootstrap", "Jquery", "Html", "Css", "MySql"],
+    doc: "https://github.com/KarishmaGR/Images/blob/main/EnjayInternship_page-0001.jpg?raw=true",
   },
 ];
 
@@ -238,12 +239,4 @@ export const projects = [
     github: "https://github.com/KarishmaGR/WeatherInfo",
     webapp: "https://weather-info-jade.vercel.app/",
   },
-];
-
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
 ];
