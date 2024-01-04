@@ -12,7 +12,6 @@ export const Bio = {
   facebook:
     "https://www.facebook.com/profile.php?id=100039527142915&mibextid=ZbWKwL",
 };
-
 export const skills = [
   {
     title: "Frontend",
@@ -199,7 +198,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/KarishmaGR/StudyBuddy",
-    webapp: "studybuddy-f.vercel.app",
+    webapp: "https://studybuddy-f.vercel.app/",
   },
 
   {
@@ -224,7 +223,7 @@ export const projects = [
     tags: ["React Js", "MongoDb", "ExpressJs", "Node JS"],
     category: "web app",
     github: "https://github.com/KarishmaGR/Todo-frontend",
-    webapp: "todo-frontend-xi-eight.vercel.app/",
+    webapp: "https://rezorpay-clone.vercel.app/",
   },
   {
     id: 5,
@@ -237,7 +236,7 @@ export const projects = [
     tags: ["Javascript", "Html", "Css", "Api"],
     category: "web app",
     github: "https://github.com/KarishmaGR/WeatherInfo",
-    webapp: "weather-info-jade.vercel.app/",
+    webapp: "https://weather-info-jade.vercel.app/",
   },
 ];
 
