@@ -75,7 +75,7 @@ const Span = styled.span`
 `;
 
 const Document = styled.img`
-  width: fit-content%;
+  width: 80px;
   display: none;
   height: 70px;
   background-color: #000;
@@ -160,7 +160,11 @@ const ExperienceCard = ({ experience }) => {
           </>
         )}
       </Description>
-      {experience.doc && <Document src={experience.doc} />}
+      {experience.doc && (
+        <a href={experience.doc} target="new">
+          <Document src={experience.doc} />
+        </a>
+      )}
     </Card>
   );
 };
