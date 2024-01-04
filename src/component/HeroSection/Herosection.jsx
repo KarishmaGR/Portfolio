@@ -30,6 +30,7 @@ const ResumeButton = styled.a`
     text-decoration: none;
     width: 95%;
     max-width: 300px;
+    z-index:1000;
     text-align: center;
     padding: 16px 0;
     color:white;
@@ -45,7 +46,7 @@ const ResumeButton = styled.a`
     box-shadow:  20px 20px 60px #1F2634,
     -20px -20px 60px #1F2634;
     &:hover {
-        transform: scale(1.05);
+    transform: scale(1.05);
     transition: all 0.4s ease-in-out;
     box-shadow:  20px 20px 60px #1F2634,
     filter: brightness(1);
@@ -55,6 +56,7 @@ const ResumeButton = styled.a`
     @media (max-width: 640px) {
         padding: 12px 0;
         font-size: 18px;
+        cursor:pointer;
     } 
 
 `;
@@ -66,15 +68,15 @@ const Herosection = () => {
         <div className=" absolute  flex justify-center bottom-0  w-[100%]   right-0  overflow-hidden   top-[5%] left-[30%]  sm:left-[10%] sm:-bottom-[10%] -translate-x-12 -translate-y-10">
           <HeroBgAnimation />
         </div>
-        <div className="  flex justify-between   sm:flex-col-reverse  sm:mb-6 sm:justify-center sm:items-center sm:gap-8 items-center w-[100vw]">
+        <div className="relative  flex justify-between   sm:flex-col-reverse  sm:mb-6 sm:justify-center sm:items-center sm:gap-8 items-center w-[100vw]">
           <div
             id="left"
             className="  order-1 flex w-[100%]  sm:gap-2 justify-between flex-col"
           >
-            <h1 className=" font-semibold text-[3rem] sm:text-[1.5rem] text-white  leading-tight  ">
+            <h1 className=" font-semibold text-[3rem] sm:px-5 sm:text-[1.5rem] text-white  leading-tight  ">
               Hi, I am <br /> {Bio.name}
             </h1>
-            <div className=" font-semibold w-[100%] text-3xl sm:text-[1.3rem] leading-snug flex gap-3 text-white">
+            <div className=" font-semibold w-[100%] sm:px-5 text-3xl sm:text-[1.3rem] leading-snug flex gap-3 text-white">
               I am a
               <span className=" text-purple-900 sm:text-[1.3rem]">
                 <Typewriter
@@ -86,17 +88,19 @@ const Herosection = () => {
                 />
               </span>
             </div>
-            <div className=" text-white  sm:text-sm text-[1rem] mb-5 leading-9 mt-5">
+            <div className=" text-white sm:px-5  sm:text-sm text-[1rem] mb-5 leading-9 mt-5">
               {Bio.description}
             </div>
-            <ResumeButton href={Bio.resume} target="display">
-              Check Resume
-            </ResumeButton>
+            <div className="sm:px-24 ">
+              <ResumeButton href={Bio.resume} target="display">
+                Check Resume
+              </ResumeButton>
+            </div>
           </div>
 
           <div
             id="right"
-            className="  w-[100%] order-2  flex justify-end sm:justify-center items-center "
+            className="  w-[100%] order-2   flex justify-end sm:justify-center items-center "
           >
             <Img src={HeroImage} />
           </div>
