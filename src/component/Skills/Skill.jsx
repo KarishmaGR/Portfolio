@@ -81,7 +81,7 @@ const SkillList = styled.div`
 const SkillItem = styled.div`
   font-size: 16px;
   font-weight: 400;
-  color: #111180;
+  color: #818182;
   border: 0.8px solid gray;
   border-radius: 12px;
   padding: 12px 16px;
